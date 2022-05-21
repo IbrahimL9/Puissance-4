@@ -1,0 +1,11 @@
+La stratégie de cette IA se compose de 2 parties, dans les 2 premiers coups a essayé de contrôler
+
+le centre en les jouant tous les 2 à la 4e case si on est les premiers à commencer sinon on ne joue que
+
+le premier coup au milieu est le deuxième à la case vide à côté (3e ou 5e).
+
+Dans la deuxième partie, elle consiste à simuler tous les coups possibles dans des grilles copie 
+
+(de l'ia ou de l'adversaire) et de déterminer la case où on gagne le plus durant cette simulation en
+
+évitant la case qui sera plus favorable pour l'ennemie. Tous ça en utilisant un score pour chaque case.
