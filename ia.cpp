@@ -36,6 +36,7 @@ int anticipe (grille G,char i,char j)
                    copie(B,C);
                    if (G[0][y-1]==' ')
                  { joue(B,j,y);
+                   //pour eviter cette colonne si l'ennemi peut gagner au prochain tour
                    if (gagner(B,j))
                           score=score-10000;
 
