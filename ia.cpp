@@ -130,10 +130,11 @@ void joue_IA (grille &G,char i,char j,int &nbc_ia)
            else ++s;
           }
 
-
+     //on anticipe la meilleure colonne
      if ((not verif) and (anticipe (G,i,j)!=-1))
        joue(G,i,anticipe (G,i,j));
 
+      //sinon en joue aléatoirement
       else if(not verif)
       {
         int x;
