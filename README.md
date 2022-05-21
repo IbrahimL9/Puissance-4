@@ -1,6 +1,6 @@
 # Puissance-4
 
-Jeu puissance 4 en utilisant une IA basique.
+Jeu puissance 4 en utilisant une IA basique (C++).
 
 Ci-dessous un screenshot du terminal :
 
